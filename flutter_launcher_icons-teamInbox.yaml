@@ -1,0 +1,8 @@
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon/team_inbox.png"
+  adaptive_icon_background: "#3D0301"
+  adaptive_icon_foreground: "assets/icon/team_inbox.png"
+  android_flavor: teamInbox

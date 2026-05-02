@@ -1,0 +1,8 @@
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon/alert_hub.png"
+  adaptive_icon_background: "#006666"
+  adaptive_icon_foreground: "assets/icon/alert_hub.png"
+  android_flavor: alertHub

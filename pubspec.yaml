@@ -1,0 +1,73 @@
+name: alert_hub
+description: "A new Flutter project."
+
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.3
+  connectivity_plus: ^7.0.0
+  get_storage: ^2.1.1
+  fluttertoast: ^9.0.0
+  flutter_image_compress: ^2.4.0
+  intl: ^0.20.2
+  freezed_annotation: ^3.1.0
+  image_picker: ^1.2.1
+  lottie: ^3.3.2
+  flutter_svg: ^2.2.3
+  cached_network_image: ^3.4.1
+  camera: ^0.10.5+9
+  geolocator: ^10.1.0
+  geocoding: ^3.0.0
+  image: ^4.8.0
+  json_annotation: ^4.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0
+  json_serializable: ^6.8.0
+  freezed: ^3.2.3
+  build_runner: ^2.4.9
+
+
+flutter:
+
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/
+    - assets/icon/
+    - assets/json/
+
+
+
+  fonts:
+    - family: ABeeZee
+      fonts:
+        - asset: fonts/abeezee_regular.ttf
+        - asset: fonts/abeezee_italic.ttf
+          style: italic
+
+    - family: Agbalumo
+      fonts:
+        - asset: fonts/agbalumo_regular.ttf
+
